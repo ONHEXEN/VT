@@ -17,6 +17,17 @@
 			<ContextMenu name="Реквизит3КонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="Реквизит3РасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Реквизит4" id="10">
+			<DataPath>Реквизит4</DataPath>
+			<ContextMenu name="Реквизит4КонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="Реквизит4РасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<CheckBoxField name="Реквизит5" id="13">
+			<DataPath>Реквизит5</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="Реквизит5КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="Реквизит5РасширеннаяПодсказка" id="15"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -50,6 +61,20 @@
 				<v8:DateQualifiers>
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Реквизит4" id="5">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Реквизит5" id="6">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
