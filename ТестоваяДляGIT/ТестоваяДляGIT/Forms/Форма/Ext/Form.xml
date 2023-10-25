@@ -11,6 +11,9 @@
 			<DataPath>Реквизит2</DataPath>
 			<ContextMenu name="Реквизит2КонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="Реквизит2РасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">Реквизит2ПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Реквизит3" id="7">
 			<DataPath>Реквизит3</DataPath>
@@ -27,6 +30,9 @@
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="Реквизит5КонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="Реквизит5РасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">Реквизит5ПриИзменении</Event>
+			</Events>
 		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
